@@ -25,9 +25,9 @@ pipeline {
                 archiveArtifacts artifacts: '**/*.war', followSymlinks: false
             }
         }
-        stage('Deploy') {
+        stage('new-deploy-dev') {
             steps {
-               deploy adapters: [tomcat9(credentialsId: 'janaktomcat', path: '', url: 'http://34.16.142.115:8090/')], contextPath: null, war: '**/*.war' 
+            build wait: false, job: 'new-deploy-dev'   
             }
         }
     }
