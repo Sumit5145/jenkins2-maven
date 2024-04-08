@@ -30,10 +30,5 @@ pipeline {
                deploy adapters: [tomcat9(credentialsId: 'janaktomcat', path: '', url: 'http://34.16.142.115:8090/')], contextPath: null, war: '**/*.war' 
             }
         }
-        stage('new-deploy-dev') {
-            steps {
-              build wait: false, job: 'new-deploy-dev'  
-            }
-        }
     }
 }
