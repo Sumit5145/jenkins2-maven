@@ -1,6 +1,6 @@
 <form action="action_page.php">
   <div class="container">
-    <h1>Linux,AWS,Docker,Jenkins,Github Interview Questions.</h1>
+    <h1>AWS All services Interview Questions.</h1>
     <p>Please fill in this form to create an account.</p>
     <hr>
      
