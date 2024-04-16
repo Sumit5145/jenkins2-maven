@@ -1,7 +1,7 @@
 <form action="action_page.php">
   <div class="container">
     <h1>How to create Jenkins Pipeline and deploy the website in server.</h1>
-    <p>Please fill in this form to create an account.</p>
+    <p>Create a new job for jenkins in jenkins file.</p>
     <hr>
      
     <label for="Name"><b>Enter Name</b></label>
