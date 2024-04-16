@@ -1,7 +1,7 @@
 <form action="action_page.php">
   <div class="container">
-    <h1>Devops Internship Interview Questions.</h1>
-    <p>Please fill in this form to create an account sumit.</p>
+    <h1>Linux,AWS,Docker Interview Questions.</h1>
+    <p>Please fill in this form to create an account.</p>
     <hr>
      
     <label for="Name"><b>Enter Name</b></label>
